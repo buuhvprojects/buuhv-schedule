@@ -44,6 +44,7 @@ export interface configOptions {
     user: string;
     pass: string | number;
     database: string;
+    port?: number;
 }
 declare namespace BuuhVDatabase {
     class Database {

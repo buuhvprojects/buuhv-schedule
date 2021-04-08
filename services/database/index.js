@@ -18,7 +18,8 @@ var BuuhVDatabase;
                 host: null,
                 user: null,
                 pass: null,
-                database: null
+                database: null,
+                port: 3306
             };
             /**
              * Executa uma query no banco de dados

@@ -45,7 +45,8 @@ export interface configOptions {
     host: string,
     user: string,
     pass: string|number,
-    database: string
+    database: string,
+    port?: number
 }
 namespace BuuhVDatabase {
     export class Database {
@@ -53,7 +54,8 @@ namespace BuuhVDatabase {
             host: null,
             user: null,
             pass: null,
-            database: null
+            database: null,
+            port: 3306
         };
         constructor(config: configOptions) {
             this.config = config;
