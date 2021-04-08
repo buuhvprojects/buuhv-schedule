@@ -38,6 +38,8 @@
         "dist/src/**/*.js",
         "dist/src/**/*.js.map",
         "dist/src/**/*.d.ts",
+        "index.js",
+        "index.d.ts",
         "README.md"
     ],
     "browserslist": {

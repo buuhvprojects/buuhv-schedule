@@ -1,3 +1,3 @@
-import BuuhVSchedule from './src';
+import BuuhVSchedule from './dist/src';
 
 export default BuuhVSchedule;
