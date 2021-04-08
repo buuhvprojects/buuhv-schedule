@@ -15,7 +15,7 @@ With it you create, edit, get and remove a schedule.
 
 First time you need to create a table as below
 
-``
+```javascript
 CREATE TABLE IF NOT EXISTS `TABLENAME` (
   `id` int(20) NOT NULL AUTO_INCREMENT,
   `startAt` datetime DEFAULT NULL,
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS `TABLENAME` (
   UNIQUE KEY `startAt` (`startAt`),
   UNIQUE KEY `endAt` (`endAt`)
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
-``
+```
 
 To create your Schedule see our examples here: https://github.com/geeknection/buuhv-schedule/tree/main/dist/examples
 
