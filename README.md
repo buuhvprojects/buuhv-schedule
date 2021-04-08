@@ -12,11 +12,8 @@ With it you create, edit, upload and remove a schedule.
 
 ## Usage
 
-```
-
 To create your Schedule see our examples here: https://github.com/geeknection/buuhv-schedule/tree/main/dist/examples
 
-```
 ---
 ## Contributors
 
