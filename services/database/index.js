@@ -17,7 +17,7 @@ var BuuhVDatabase;
             this.config = {
                 host: null,
                 user: null,
-                pass: null,
+                password: null,
                 database: null,
                 port: 3306
             };

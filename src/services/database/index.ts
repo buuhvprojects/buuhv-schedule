@@ -44,7 +44,7 @@ interface deleteValues {
 export interface configOptions {
     host: string,
     user: string,
-    pass: string|number,
+    password: string,
     database: string,
     port?: number
 }
@@ -53,7 +53,7 @@ namespace BuuhVDatabase {
         private config: configOptions = {
             host: null,
             user: null,
-            pass: null,
+            password: null,
             database: null,
             port: 3306
         };

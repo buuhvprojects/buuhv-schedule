@@ -42,7 +42,7 @@ interface deleteValues {
 export interface configOptions {
     host: string;
     user: string;
-    pass: string | number;
+    password: string;
     database: string;
     port?: number;
 }
