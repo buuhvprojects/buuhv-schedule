@@ -58,9 +58,9 @@
         "url": "git+https://github.com/geeknection/buuhv-schedule.git"
     },
     "keywords": [
-        "jwt",
-        "jwt js",
-        "nodejs jwt"
+        "schedule",
+        "calendar",
+        "nodejs scheduling"
     ],
     "author": "BuuhV",
     "license": "MIT",
