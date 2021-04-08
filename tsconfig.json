@@ -4,7 +4,7 @@
     "allowJs": true,
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
-    "outDir": "dist",
+    "outDir": ".",
     "moduleResolution": "node",
     "pretty": true,
     "sourceMap": true,
