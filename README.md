@@ -1,9 +1,10 @@
 # `@buuhv/schedule`
 
 Create scheduling systems with BuuhV Schedule
+
 A BuuhV lib to help you keep track of your schedule system.
-With it you create, edit, upload and remove a schedule.
-@Buuhv/schedule will also return error returns with slugs for you to create customized responses
+With it you create, edit, get and remove a schedule.
+@buuhv/schedule will also have return error returns with slugs for you to create customized responses
 
 
 ## Getting started
