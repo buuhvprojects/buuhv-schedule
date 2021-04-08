@@ -11,9 +11,9 @@ import BuuhVSchedule from '../src';
     }
     const data = {
         table: 'BuuhV_schedule',
-        id: 2
+        id: 1
     }
-    const remove = new BuuhVSchedule.Remove(database, data);
-    const response = await remove.init();
+    const get = new BuuhVSchedule.Get(database, data);
+    const response = await get.init();
     console.log(response);
 })();

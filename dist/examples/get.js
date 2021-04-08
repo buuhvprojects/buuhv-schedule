@@ -20,10 +20,10 @@ const src_1 = require("../src");
     };
     const data = {
         table: 'BuuhV_schedule',
-        id: 2
+        id: 1
     };
-    const remove = new src_1.default.Remove(database, data);
-    const response = yield remove.init();
+    const get = new src_1.default.Get(database, data);
+    const response = yield get.init();
     console.log(response);
 }))();
 //# sourceMappingURL=get.js.map
