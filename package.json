@@ -1,6 +1,6 @@
 {
     "name": "@buuhv/schedule",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "private": false,
     "babel": {
         "presets": [
@@ -35,9 +35,24 @@
         "typescript": "^4.0.5"
     },
     "files": [
-        "./**/*.js",
-        "./**/*.js.map",
-        "./src/**/*.d.ts",
+        "services/**/*.js",
+        "services/*.js",
+        "services/**/*.d.ts",
+        "services/*.d.ts",
+        "services/**/*.map",
+        "services/*.map",
+        "modules/**/*.js",
+        "modules/*.js",
+        "modules/**/*.map",
+        "modules/*.map",
+        "modules/**/*.d.ts",
+        "modules/*.d.ts",
+        "index.js",
+        "index.map.js",
+        "interfaces.js",
+        "interfaces.js.map",
+        "interfaces.d.ts",
+        "index.d.ts",
         "README.md"
     ],
     "browserslist": {
