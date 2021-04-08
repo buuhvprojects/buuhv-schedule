@@ -10,15 +10,15 @@
     "sourceMap": true,
     "baseUrl": ".",
     "typeRoots" : ["./node_modules/@types"],
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "declaration": true
   },
   "files": [
     "./node_modules/@types/mocha/index.d.ts",
     "./node_modules/@types/node/index.d.ts"
   ],
   "include": [
-    "src/**/*.ts",
-    "examples/**/*.ts",
+    "src/**/*.ts"
   ],
   "exclude": [
     "node_modules"
