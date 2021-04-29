@@ -1,6 +1,6 @@
 {
     "name": "@buuhv/schedule",
-    "version": "1.0.12",
+    "version": "1.0.13",
     "private": false,
     "babel": {
         "presets": [
@@ -69,7 +69,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/geeknection/buuhv-schedule.git"
+        "url": "git+https://github.com/buuhvprojects/buuhv-schedule.git"
     },
     "keywords": [
         "schedule",
@@ -79,7 +79,7 @@
     "author": "BuuhV",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/geeknection/buuhv-schedule/issues"
+        "url": "https://github.com/buuhvprojects/buuhv-schedule/issues"
     },
     "publishConfig": {
         "registry": "https://registry.npmjs.org/",
